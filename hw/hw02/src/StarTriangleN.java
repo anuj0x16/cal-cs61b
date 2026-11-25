@@ -5,8 +5,8 @@ public class StarTriangleN {
      */
     public static void starTriangle(int N) {
         for (int i = 1; i <= N; i++) {
-            printChar(N - i, ' ');  // Print leading spaces
-            printChar(i, '*');            // Print stars
+            printChar(N - i, ' '); // Print leading spaces
+            printChar(i, '*'); // Print stars
             IO.println();
         }
     }
